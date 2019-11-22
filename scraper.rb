@@ -28,3 +28,5 @@ reviews = review_links.map do |link|
     score: score
   }
 end
+
+puts JSON.pretty_generate(reviews)
